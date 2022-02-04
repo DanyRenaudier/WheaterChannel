@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="C:\Users\Dany Renaudier\Desktop\css\bootstrap.css">
+</head>
+<body>
+    <button class="btn btn-outline-secondary" id="Berlin">Berlin</button>
+    <button class="btn btn-outline-secondary" id="NewYork">New York</button>
+    <button class="btn btn-outline-secondary" id="BuenosAires">Buenos Aires</button>
+
+    <div id="div_carga">
+        <img id="cargador" src="https://globalmarketsca.com/images/cargando.gif"/>
+    </div>
+
+    <label>
+        Ingrese una ciudad<br>
+        <input type="text" name="Nombre_mascota" placeholder="Ciudad" id="ciudad">
+        </label>
+    <div id="container">
+        <ul>
+            <li>Temperatura actual <span id="tempActual"></span></li>
+            <li>Temperatura máxima <span id="max"></span></li>
+            <li>Temperatura mínima <span id="min"></span></li>
+            <li>Descripción de las condiciones actuales <span  id="description"></span></li>
+            <li>Velocidad del viento <span id="windSpeed"></span></li>
+        </ul>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
